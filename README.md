@@ -148,3 +148,7 @@ Each report includes:
 ## Legal & Ethical Disclaimer
 
 WebProbe is designed and intended strictly for educational purposes, security research, and authorized penetration testing on systems where prior written consent has been granted. Running vulnerability scans against targets without authorization is illegal. The author assumes no liability for unauthorized usage.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
