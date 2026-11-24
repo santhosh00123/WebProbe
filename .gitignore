@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Environment and sensitive secrets
+.env
+.env.*
+!.env.example
+
+# API credentials and secrets
+credentials.json
+secrets.json
+*.secret
+
+# Private keys and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+
+# WebProbe Scan Outputs
+outputs/reports/*.pdf
+outputs/reports/*.json
+
+# Testing & Cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs and temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Database files
+*.sqlite3
+*.db
+*.dump
+
+# Node dependencies
+node_modules/
+
+# System and Editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/
+.idea/
