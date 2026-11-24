@@ -116,13 +116,39 @@ Enter your target URL (e.g., `http://localhost:3000`) and choose your scan type 
 
 ### Non-Interactive CLI
 ```bash
+# lab setuped
 python3 main.py http://localhost:3000
+
+# Random website
+python3 main.py http://example.com
 ```
 
 ### Running Tests
 Execute the automated smoke tests to verify all scanner, risk, crawler, and config components:
 ```bash
-python3 -m unittest discover tests
+# Fully non-interactive — no prompts at all
+python3 main.py http://localhost:3000 --scan all
+
+# Specific scan type without menu
+python3 main.py http://example.com --scan sqli+xss
+
+# Force offline/manual payloads only (skip LLM)
+python3 main.py http://localhost:3000 --scan all --no-llm
+
+# Custom output directory for report
+python3 main.py http://example.com --scan all --output /tmp/my_reports
+
+# Show help
+python3 main.py --help
+
+# Show version
+python3 main.py --version
+
+# Run only one test file
+python3 -m unittest tests.test_sqli
+
+# Run tests with verbose output
+python3 -m unittest discover tests -v
 ```
 
 ---
